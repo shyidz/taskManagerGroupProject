@@ -66,7 +66,7 @@ function displayTasks() {
 function editTask(index) {
     // Get the task at the specified index
     const task = tasks[index];
-    
+
     // Populate form fields with task details
     document.getElementById('title').value = task.title;
     document.getElementById('description').value = task.description;
